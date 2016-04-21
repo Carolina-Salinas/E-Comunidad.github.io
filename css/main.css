@@ -1,4 +1,4 @@
-/* Inserta tu codigo aqui */
+*{outline: 1px solid rgba(255,0,0,0.4);}/* Inserta tu codigo aqui */
 header{padding: 2px;
        margin: 2px;
        color: #fff;
@@ -27,3 +27,15 @@ nav a:hover{color: #fff;}
 .uno{height: 300px;
      width: 100%;}
                               
+.seccion{
+      margin-top: 30px;
+      padding right:0;
+      padding left:0;
+}
+.seccion1 img{
+      width: 100%;
+}
+.seccion1 .c{
+      background: url("../img/fondo.jpg");
+     background-size: contain;
+}
