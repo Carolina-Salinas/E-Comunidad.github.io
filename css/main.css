@@ -1,4 +1,4 @@
-/* Inserta tu codigo aqui */
+*{outline: 1px solid rgba(255,0,0,0.4);}/* Inserta tu codigo aqui */
 header{padding: 2px;
        margin: 2px;
        color: #fff;
@@ -26,6 +26,7 @@ nav a:hover{color: #fff;}
   
 .uno{height: 300px;
      width: 100%;}
+<<<<<<< HEAD
   p{color: #000000;
       text-align: center;
      margin-left: 120px;
@@ -35,3 +36,18 @@ nav a:hover{color: #fff;}
      margin-bottom: 28px;}                            
 .contenedor{width: 100%;}
 .img{display: inline-block;}
+=======
+                              
+.seccion{
+      margin-top: 30px;
+      padding right:0;
+      padding left:0;
+}
+.seccion1 img{
+      width: 100%;
+}
+.seccion1 .c{
+      background: url("../img/fondo.jpg");
+     background-size: contain;
+}
+>>>>>>> 05945525f1841a24c7185f1c5798472c9a0c1500
