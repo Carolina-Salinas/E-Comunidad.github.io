@@ -7,7 +7,7 @@
 	font-family: OpenSans-Regular;
 	src: url(../fonts/Open/OpenSans-Regular.ttf);
 }
-@font-face{
+@font-face{s
 	font-family: OpenSans-Light;
 	src: url(../fonts/Open/OpenSans-Light.ttf);
 }
@@ -35,6 +35,9 @@
 }
 .pd-5-10{
 	padding: 5% 10%;
+}
+.pd-3-20-5{
+	padding: 3% 20% 5% 20%;
 }
 .mg-0{
 	margin: 0;
