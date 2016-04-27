@@ -115,12 +115,26 @@ body{font-family: "OpenSans-Light",Helvetica;
 }
 .icons li{
   display: inline-block;
-
 }
 .caller{
   width: 20%;
 }
+.redes{
+  width: 100%;
+  height: 300px;
+  background-color: #4D4D4D;
+  border: 1px solid #fff; 
+}
+.box img{
+  padding-top: 80px;
+  width: 40px;
+  position: relative;
+  left: 20px;
 
-
-
-
+}
+.box{
+  width: 250px;
+  height: 210px;
+  display:inline-block;
+  border: 1px solid #ffffff;
+}
