@@ -34,9 +34,6 @@ body{font-family: "OpenSans-Light",Helvetica;
 .proyecto1 {
   margin-top:100px; 
 }
-.proyecto2 {
-  margin-bottom: 400px;
-}
 .proyecto1 div img{
   width: 450px;
   height: 300px;
@@ -109,3 +106,21 @@ body{font-family: "OpenSans-Light",Helvetica;
 /* .textos ul li {min-height: 350px; margin-top: 0px;}*/
 .textos h4, .textos p{margin-top: 0px;text-align: left; margin-left: 20px}
 /*.textos ul li  {list-style-type: none;width: 300px;margin: 40px auto;font-size: 13px;}*/
+.Equipo p{
+  font-size: 12px;
+}
+.Equipo img{
+  border-radius:50%;
+  width: 40%;
+}
+.icons li{
+  display: inline-block;
+
+}
+.caller{
+  width: 20%;
+}
+
+
+
+

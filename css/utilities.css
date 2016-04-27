@@ -3,6 +3,7 @@
 	font-family: "OpenSans-Light", Helvetica;
 }
 
+}
 @font-face{
 	font-family: OpenSans-Regular;
 	src: url(../fonts/Open/OpenSans-Regular.ttf);
@@ -21,6 +22,9 @@
 .pd-0 {
 	padding: 0;
 }
+.pd-1{
+	padding: 1%;
+}
 .pt-5 {
 	padding-top: 5%;
 }
@@ -33,11 +37,23 @@
 .pd-5 {
 	padding: 5%;
 }
+.pd-3{
+	padding: 3%;
+}
+.pl-10{
+	padding-left: 10%;
+}
+.pr-10{
+	padding-right: 10%;
+}
 .pd-5-10{
 	padding: 5% 10%;
 }
 .pd-3-20-5{
 	padding: 3% 20% 5% 20%;
+}
+.pd-5-10{
+	padding: 5% 10% 5% 10%;
 }
 .mg-0{
 	margin: 0;
