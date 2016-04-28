@@ -1,13 +1,22 @@
 
-*{outline: 1px solid rgba(255,0,0,0.1);}/* Inserta tu codigo aqui */
+/*{outline: 1px solid rgba(255,0,0,0.1);}/* Inserta tu codigo aqui */
 
 body{font-family: "OpenSans-Light",Helvetica;
+}
+.head{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    opacity: 0.8;
+    color: #000000;
+}
+.head ul li a{
+    text-decoration: none; 
 }
 .header img{
   width: 80px;
   margin-left: 40px;
 }
-
 .semilla{
   background: url("../img/semilla.jpg") no-repeat;
   background-size: cover;
@@ -38,7 +47,6 @@ body{font-family: "OpenSans-Light",Helvetica;
   width: 450px;
   height: 300px;
 }
-
 .MisionVision{
   margin-top: 50px;
   margin-bottom: 50px;
