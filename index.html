@@ -10,9 +10,9 @@
 	<!-- jQuery library (served from Google) -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<!-- bxSlider Javascript file -->
-	<script src="js/jquery.bxslider.min.js"></script>
+	
 	<!-- bxSlider CSS file -->
-	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	
 </head>
 <body>
 <!-- Inicia conteiner-fluid  carolina-->
@@ -27,7 +27,7 @@
 							<li><a href=#proyect>Proyectos</a></li>
 							<li><a href=#equipo>Equipos</a></li>
 							<li><a href=#blog>Blogs</a></li>
-							<li><a href=#contacto>Siguenos</a></li>
+							<li><a href=#Siguenos>Siguenos</a></li>
 						</ul>
 				</div>
 			</div>
@@ -68,7 +68,7 @@
 			<h3 class="pt-5">Servicios</h3>
 			<p class="pd-3-20-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 		</div>
-		<div class="caja text-center">
+		<div class="caja pb-5 text-center">
 			<ul >
 				<li>
 					<div class="servicios-icon">
@@ -113,34 +113,33 @@
 				</li>
 			</ul>	
 		</div>
-			<!--Inicia Proyectos juanita-->
-       <div class="proyectos" id="proyect">
-			<div class="row proyecto1">
-			<div class="col-6">
-				<h3>Proyectos</h3>
-				<img class="bg-img-block" src="img/fotos/img-0352.jpg"/>
-			</div>
-			<div class="col-6">
-				<br>
-				<h4>Nombre deL Proyecto 1</h4>
-				<h5>Distrito</h5>
-				<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi.</h6>
-			</div>
-			</div>
-			<div class="row proyecto2">
-				<div class="col-6">
-					<img class="bg-img-block"src="img/fotos/img-9246.jpg">
-				</div>
-				<div class="col-6">
-					<br>
-					<h4>Nombre deL Proyecto 1</h4>	
-					<h5>Distrito</h5>
-					<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et doloremagna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. </h6>
-				</div>
-			</div>
+			<!--Inicia Proyectos -->
+		<div class="fondo pb-5" id="proyect">
+		<div class="row">
+		   <div class="col-6">
+		   	   <h2 id="Proyectos"><strong>Proyectos</strong></h2>
+		   	   <ul>
+		   	   	   <li><a href="proye1"></a><img src="img/fotos/img-0352.JPG"></li>
+		   	   	   <li><a href="proye1"></a><img src="img/imgtren.jpg"></li>
+		   	   </ul>
+		   </div>
+		   <div class="col-6">
+		   	   <div class="proyec">
+		   	   	   <h3>Nombre del Proyecto 1</h3>
+		   	   	   <h4>Nombre de Distrito</h4>
+		   	   	   <p>This page requires either a Gecko-based browser whose rendering code is no older than the last day or so of July 2009 (based off trunk code at that time in mozilla-central) or a browser with support for the unprefixed CSS 3 background properties. Other browsers are not supported either because I don't know they exist or because their </p>
+		   	   </div>
+		   	   <div class="proyec">
+		   	   	   <h3>Nombre del Proyecto 2</h3>
+		   	   	   <h4>Nombre de Distrito</h4>
+		   	   	   <p>This page requires either a Gecko-based browser whose rendering code is no older than the last day or so of July 2009 (based off trunk code at that time in mozilla-central) or a browser with support for the unprefixed CSS 3 background properties. Other browsers are not supported either because I don't know they exist or because their  </p>
+		   	   </div>
+		   </div>	
 		</div>
+	</div>
+       
 		<!-- inicia Equipo carolina-->
-		<div class="Equipo" id="equipo">
+		<div class="Equipo pb-5 pt-5" id="equipo">
 				<h3 class="text-green text-left pl-10">Equipo</h3>
 			<div class="row text-center mg-0">
 				<div class="col-6 pl-10"> 	
@@ -186,30 +185,42 @@
 				</div>
 			</div>
 		</div>
-<!-- Blog aqui falta juanita-->
-	<!-- Siguenos  juanita trata de cuadrar los divs de tal manera parezca al modelo que nos dan-->
-
-		<div class="redes bg-black text center text-white pd-5" id="contacto"> 
-			<div class="row">
-				<div class="box">
-					<p class="text-left">Facebook</p>
-					<a href="#"><img src="img/facebook.png" class="face"></a>
-				</div>
-				<div class="box">
-					<p class="text-left">Twiter</p>
-					<a href="#"><img src="img/twitter.png"></a>
-				</div>
-				<div class="box">
-					<p class="text-left">Linkedin</p>
-					<a href="#"><img src="img/in.png"></a>
-				</div>
-				<div class="box">
-					<p class="text-left">E-mail</p>
-					<a href="#"><img src="img/email.png"></a>
-				</div>
-			</div>	
-		</div>
-		<!-- foot falta tb agregar y no te olvides los efectos -->
+<!-- Blog -->
+	<div class="blog pb-5 pt-5" id="blog">
+		<h3 id="blog text-left pl-10" class="name-blog">Blog</h3>
+	   <div class="row">
+	      <div class="col-4">
+	         <img class="lista-blog" src="img/fotos/img-0400.JPG">
+	         <p class="titulo-post"><a href="#">Titulo de post</a></p>	
+	         <p class="fecha">01.Ene.2015</p>
+	         <p class="parrafo">This page requires either a Gecko-based browser whose rendering code is no older than the last day or so of July 2009 (based off trunk code at that time in mozilla-central) or a browser with support.</p>
+	      </div>
+	      <div class="col-4">
+             <img class="lista-blog" src="img/imgtren.jpg">
+	      	 <p class="titulo-post"><a href="#">Titulo de post 2</a></p>	
+	         <p class="fecha">31.Dic.2014</p>
+	      	 <p class="parrafo">This page requires either a Gecko-based browser whose rendering code is no older than the last day or so of July 2009 (based off trunk code at that time in mozilla-central) or a browser with support.</p> 
+	      </div>
+	      <div class="col-4">
+             <img class="lista-blog" src="img/fotos/img-0400.JPG">
+	      	 <p class="titulo-post"><a href="#">Titulo de post 3</a></p>	
+	         <p class="fecha">31.Dic.2014</p>
+	      	 <p class="parrafo">This page requires either a Gecko-based browser whose rendering code is no older than the last day or so of July 2009 (based off trunk code at that time in mozilla-central) or a browser with support.</p>
+	      </div>
+	   </div>
 	</div>
+
+	
+	<div id="Siguenos" class="cuadro-final">
+	<div class="row">
+	    <ul class="final">
+		<div class="uno"><a href="face"><p>Facebook</p><img src="img/facebook.png"></a></div>
+		<div class="uno"><a href="twit"><p>Twitter</p><img src="img/twitter.png"></a></div>
+		<div class="uno"><a href="link"><p>Linkedin</p><img src="img/in.png"></a></div>
+		<div class="uno"><a href="email"><p>E-mail</p><img class="mail" src="img/email.png"></a></div>
+		</ul>	
+	</div>
+	</div>
+	
 </body>
 </html>
